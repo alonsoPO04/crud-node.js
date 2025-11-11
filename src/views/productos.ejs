@@ -1,0 +1,14 @@
+<h1>Productos</h1>
+
+<section class="productos">
+    <% productos.forEach(producto=> { %>
+        <article class="producto">
+            <h5>
+                <%= producto.title %>
+            </h5>
+            <p>
+                <%= producto.description %>
+            </p>
+        </article>
+        <% }); %>
+</section>

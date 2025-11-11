@@ -1,0 +1,81 @@
+body {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    max-width: 80vw;
+    padding: 0;
+}
+h5 {
+    color: green;
+}
+
+h1 {
+    color: blue;
+}
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+}
+.button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    border: 1px solid gray;
+}
+button:hover {
+    background-color: lightgray;
+}
+
+.button--primary {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.button--danger {
+    background-color: red;
+    padding: auto;
+    color: snow;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}  
+ul , ol {
+    list-style: none;
+    padding-left: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+}
+
+.form__group {
+    margin-bottom: 0.5em;
+}
+.form__input {
+    padding: 0.5em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.5em;
+ }
+ .categorias {
+    margin-top: 0.5em;
+    gap: 0.5em;
+}
